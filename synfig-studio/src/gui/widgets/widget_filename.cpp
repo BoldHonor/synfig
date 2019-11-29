@@ -125,7 +125,7 @@ Widget_Filename::get_value() const
 void
 Widget_Filename::on_value_changed()
 {
-	signal_value_changed()();
+	signal_value_changed();
 }
 
 void
